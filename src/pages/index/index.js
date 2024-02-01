@@ -120,7 +120,7 @@ export default function Index() {
                   <li className="mb-1 flex items-center"><BsCheckCircle
                     className="text-indigo-600 text-base me-2"/> Presencia de artistas invitados e influencers
                   </li>
-                                 <li className="mb-1 flex items-center"><BsCheckCircle
+                  <li className="mb-1 flex items-center"><BsCheckCircle
                     className="text-indigo-600 text-base me-2"/> Descuentos exclusivo en la barra de tragos
                   </li>
                   <li className="mb-1 flex items-center"><BsCheckCircle
@@ -142,7 +142,48 @@ export default function Index() {
         <div className="container relative md:mt-24 mt-16">
           <div className="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center mt-10 gap-[30px]">
             <div className="lg:col-span-5 md:order-2 order-1">
-            <div className="lg:ms-10">
+              <div className="lg:ms-10">
+                <div className="bg-white dark:bg-slate-900 p-6 rounded-md shadow dark:shadow-gray-800">
+                  <img src={Mobile_notification_SVG} alt=""/>
+
+                </div>
+              </div>
+            </div>
+            <div className="lg:col-span-7 md:order-1 order-2">
+              <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Cómo vamos a
+                comunicar el <span className="text-indigo-600">SORTEO </span>:</h3>
+              <p className="text-slate-400 max-w-xl">Te mantendremos informado de nuestros sorteos y eventos a través de
+                publicidad pagada
+                en redes sociales y en colaboración con nuestros influencers aliados.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800">
+        <div className="container relative">
+
+          <div className="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center mt-10 gap-[30px]">
+            <div className="lg:col-span-5">
+              <img src={SEO_SVG} alt=""/>
+            </div>
+            <div className="lg:col-span-7">
+              <div className="lg:ms-10">
+                <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Descuentos
+                  Exclusivos</h3>
+
+                <p className="text-slate-400 max-w-xl"> Obtén descuentos especiales con códigos proporcionados por nuestros influencers en redes
+                  sociales. Prepárate para vivir la magia de Don Camaleón y aprovecha todas las ventajas
+                  que tenemos para ti</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container relative md:mt-24 mt-16">
+          <div className="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center mt-10 gap-[30px]">
+            <div className="lg:col-span-5 md:order-2 order-1">
+              <div className="lg:ms-10">
                 <div className="bg-white dark:bg-slate-900 p-6 rounded-md shadow dark:shadow-gray-800">
                   <img src={Mobile_notification_SVG} alt=""/>
 
@@ -192,28 +233,10 @@ export default function Index() {
               </div>
             </div>
             <div className="lg:col-span-7 md:order-1 order-2">
-              <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Speed up your
-                development <br/> with <span className="text-indigo-600">Techwind.</span></h3>
-              <p className="text-slate-400 max-w-xl">You can combine all the Techwind templates into a single one, you
-                can take a component from the Application theme and use it in the Website.</p>
 
-              <ul className="list-none text-slate-400 mt-4">
-                <li className="mb-1 flex items-center "><BsCheckCircle
-                  className="text-indigo-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow
-                </li>
-                <li className="mb-1 flex items-center "><BsCheckCircle className="text-indigo-600 text-base me-2"/> Our
-                  Talented & Experienced Marketing Agency
-                </li>
-                <li className="mb-1 flex items-center "><BsCheckCircle
-                  className="text-indigo-600 text-base me-2"/> Create your own skin to match your brand
-                </li>
-              </ul>
+              <p className="text-slate-400 max-w-xl"> ¡Te esperamos para hacer de cada evento una experiencia única e
+                inolvidable en Don Camaleón!</p>
 
-              <div className="mt-4">
-                <Link to="/page-aboutus"
-                      className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Find
-                  Out More <MdKeyboardArrowRight className="text-xl"/></Link>
-              </div>
             </div>
           </div>
         </div>
